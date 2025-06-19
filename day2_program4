@@ -1,0 +1,22 @@
+Eligible for Placement
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    char c[50];
+    scanf("%s",c);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("Name of the Student:%s\n",c);
+    if (a==1 && b>70)
+        printf("%s is Eligible for Placement",c);
+    else if(a<=2 && b>75)
+        printf("%s is Eligible for Placement",c);
+    else 
+        printf("%s is Not Eligible for Placement",c);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
