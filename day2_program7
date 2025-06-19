@@ -1,0 +1,23 @@
+Wall Painting
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,b,c,d,e,f,area,a1,a2,tot;
+    scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f);
+    area = a*b;
+    a1 = c*d;
+    a2 = e*f;
+    tot = a1+a2;
+    if(area >= tot )
+        printf("Raj can fix both painting");
+    else
+        printf("Raj cannot fix both painting");
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
