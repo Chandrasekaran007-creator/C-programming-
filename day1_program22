@@ -1,0 +1,19 @@
+Alice in wonderland
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,tens,ones;
+    scanf("%d",&a);
+    tens = a/10;
+    ones = a%10;
+    int sum = tens +ones;
+    
+     printf("Bird said:%d\n",a);
+    printf("Alice must go in path-%d",sum);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
