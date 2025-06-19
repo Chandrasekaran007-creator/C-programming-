@@ -1,0 +1,25 @@
+dept repay
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int p,r,n;
+    scanf("%d%d%d",&p,&r,&n);
+    float si,amt,dis,fs;
+    si = (p*r*n)/100;
+    amt= p+ si;
+    dis = 0.02*si;
+    fs = amt-dis;
+    printf("%0.2f\n",si);
+    printf("%0.2f\n",amt);
+    printf("%0.2f\n",dis);
+    printf("%0.2f",fs);
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
