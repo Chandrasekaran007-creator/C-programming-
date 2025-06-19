@@ -1,0 +1,20 @@
+Harry potter and the sorcerer's stone
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int a,ones,thousands,sum;
+    scanf("%d",&a);
+    ones = a%10;
+    thousands = a/1000;
+    sum = ones+ thousands;
+
+    printf("%d",sum);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
